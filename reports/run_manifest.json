@@ -1,0 +1,34 @@
+{
+  "created_utc": "2026-11-15T23:58:58.501755+00:00",
+  "versions": {
+    "python": "3.13.9",
+    "pandas": "2.3.3",
+    "numpy": "2.3.5",
+    "scikit_learn": "1.7.2",
+    "joblib": "1.5.2",
+    "matplotlib": "3.10.6"
+  },
+  "files": [
+    {
+      "file": "train.csv",
+      "bytes": 85001325,
+      "sha256": "2b89e8894cc0cb955a3a5b4aae08bd3a2339121a12c9afae5f08967ef1240e30"
+    },
+    {
+      "file": "test.csv",
+      "bytes": 20929360,
+      "sha256": "626865db7f9a6dbcca83445aa6771c2e5b878b504487a780f318c0a47dbc6fc5"
+    },
+    {
+      "file": "sample_submission.csv",
+      "bytes": 1337350,
+      "sha256": "c995cbf5861786c28842c5ba5f7ea8b8eee3019301b51a2f5272ab0e4e40cf9e"
+    }
+  ],
+  "parameters": {
+    "data_dir": "data\\raw",
+    "output_dir": ".",
+    "false_negative_cost": 10.0,
+    "false_positive_cost": 1.0
+  }
+}

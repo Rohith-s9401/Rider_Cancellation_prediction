@@ -1,0 +1,85 @@
+{
+  "raw_rows": 450000,
+  "exact_duplicates_removed": 1,
+  "outcome_already_known_at_allocation_removed": 7,
+  "eligible_rows": 449992,
+  "cancellation_rate": 0.011577983608597487,
+  "raw_columns": [
+    "order_time",
+    "order_id",
+    "order_date",
+    "allot_time",
+    "accept_time",
+    "pickup_time",
+    "delivered_time",
+    "rider_id",
+    "first_mile_distance",
+    "last_mile_distance",
+    "alloted_orders",
+    "delivered_orders",
+    "cancelled",
+    "undelivered_orders",
+    "lifetime_order_count",
+    "reassignment_method",
+    "reassignment_reason",
+    "reassigned_order",
+    "session_time",
+    "cancelled_time"
+  ],
+  "test_rows": 144844,
+  "train_only_columns": [
+    "cancelled",
+    "cancelled_time",
+    "delivered_time",
+    "pickup_time"
+  ],
+  "missing_fractions": {
+    "order_time": 0.0,
+    "order_id": 0.0,
+    "order_date": 0.0,
+    "allot_time": 0.0,
+    "accept_time": 0.00034888888888888887,
+    "pickup_time": 0.00538,
+    "delivered_time": 0.011595555555555555,
+    "rider_id": 0.0,
+    "first_mile_distance": 0.0,
+    "last_mile_distance": 0.0,
+    "alloted_orders": 0.03766222222222222,
+    "delivered_orders": 0.03853555555555556,
+    "cancelled": 0.0,
+    "undelivered_orders": 0.03853555555555556,
+    "lifetime_order_count": 0.00011777777777777778,
+    "reassignment_method": 0.9694577777777778,
+    "reassignment_reason": 0.9694377777777777,
+    "reassigned_order": 0.9694377777777777,
+    "session_time": 0.008166666666666666,
+    "cancelled_time": 0.9884044444444444
+  },
+  "split": {
+    "validation_start": "2021-02-02 00:00:00",
+    "holdout_start": "2021-02-04 00:00:00",
+    "train_labels_purged": 34,
+    "validation_labels_purged": 13,
+    "train": {
+      "rows": 273735,
+      "cancellations": 3286,
+      "cancellation_rate": 0.012004310738487954,
+      "allocation_min": "2021-01-26 02:21:59",
+      "allocation_max": "2021-02-01 19:51:21"
+    },
+    "validation": {
+      "rows": 82307,
+      "cancellations": 887,
+      "cancellation_rate": 0.010776726159378911,
+      "allocation_min": "2021-02-02 02:24:45",
+      "allocation_max": "2021-02-03 20:45:09"
+    },
+    "holdout": {
+      "rows": 93903,
+      "cancellations": 1031,
+      "cancellation_rate": 0.01097941492817056,
+      "allocation_min": "2021-02-04 00:55:37",
+      "allocation_max": "2021-02-06 10:52:57"
+    }
+  }
+}

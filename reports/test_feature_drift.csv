@@ -1,0 +1,12 @@
+feature,psi,reference_missing,current_missing
+allocation_weekday,4.981676127551642,0.0,0.0
+allocation_delay_minutes,0.19399948500321593,0.0,0.0
+log_allocation_delay,0.19399948500321593,0.0,0.0
+first_mile_share,0.019087504833545516,0.0,0.0
+allocation_hour_sin,0.017573550801428698,0.0,0.0
+order_hour,0.01376460703454963,0.0,0.0
+first_mile_distance,0.013130817192459983,0.0,0.0
+allocation_hour_cos,0.011940520994043784,0.0,0.0
+last_mile_distance,0.006477906883638503,0.0,0.0
+total_distance,0.0014953271456318775,0.0,0.0
+is_weekend,1.0345622894438128e-06,0.0,0.0

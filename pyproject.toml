@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "rider-cancellation"
+version = "1.0.0"
+description = "Leakage-aware allocation-time cancellation prediction with temporal evaluation"
+requires-python = ">=3.11"
+dependencies = ["pandas>=2.2,<3", "numpy>=2,<3", "scikit-learn>=1.5,<2", "matplotlib>=3.9,<4", "joblib>=1.4,<2", "threadpoolctl>=3.5,<4"]
+
+[project.optional-dependencies]
+dev = ["pytest>=8,<10", "nbformat>=5.10,<6", "nbclient>=0.10,<1", "ipykernel>=6,<8"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
+addopts = "--basetemp=.pytest_tmp"

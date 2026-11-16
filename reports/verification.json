@@ -1,0 +1,9 @@
+{
+  "contract_tests_passed": 7,
+  "executed_notebook_code_cells": 14,
+  "notebook_errors": 0,
+  "cli_scoring_rows": 144844,
+  "cli_matches_training_predictions": true,
+  "source_compiles": true,
+  "original_source_folder_modified": false
+}
